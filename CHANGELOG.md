@@ -371,7 +371,7 @@ All notable changes to this project will be documented in this file.
 * Fixes a couple of operators that were not cleaning up resources on terminal events when used without `DisposeBag`s.
 * Fixes delegate proxy interaction with subclassing of `UISearchController`.
 * Fixes delegate proxy interaction with subclassing of `NSTextStorage`.
-* Fixes delegate proxy interaction with subclassing of `UIWebView`.
+* Removed delegate proxy interaction with subclassing of `UIWebView`.
 * Fixes delegate proxy interaction with subclassing of `UIPickerView`.
 
 ## [3.1.0](https://github.com/ReactiveX/RxSwift/releases/tag/3.1.0) (Xcode 8 / Swift 3.0 compatible)
@@ -389,7 +389,7 @@ All notable changes to this project will be documented in this file.
     * `didEndDragging`
     * `didScrollToTop`
 * Renames `refreshing` to `isRefreshing`.
-* adds `UIWebView` extensions:
+* Removed `UIWebView` extensions:
     * `didStartLoad`
     * `didFinishLoad`
     * `didFailLoad`
